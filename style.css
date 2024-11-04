@@ -1,0 +1,381 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    /* background-color:blue; */
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    width:1111px;
+    margin-left: 100px;
+}  
+.logo{
+    width:15px;
+}
+ul,li{
+    display: inline;
+    padding: 30px;
+    padding-left:40px; 
+    width: 75%;
+}
+a{
+    text-decoration: none;
+    padding:30px 5px;
+    color:black;
+}
+.nav-item{
+    text-decoration: none;
+    margin-left: 250px;
+}
+.getbutton{
+    border: none;
+    background-color: #FF7143;
+    border-radius: 5px;
+    padding:20px 70px 20px 70px;
+    color: white;
+    margin-right: 55px;
+    /* background-color: yellow; */
+    
+}
+
+/* hero section starts here */
+.hero1{
+    height: 644px;
+    width: 1146px;
+    margin-left:100px;
+    display: flex;
+    justify-content: space-between;
+}
+.herotext{
+    margin-top: 100px;
+}
+.grow{
+    font-family:'DM sans',sans-serif;
+    font-size: 80px;
+    weight:700;
+    width: 50%;
+    color:#19191B;
+
+}
+.grow-small{
+    margin-top: 30px;
+    font-family:"Mulish", sans-serif;
+    color:#696871;
+    font-size: 20px;
+}
+.button-arrow{
+    justify-content: space-between;
+}
+.hero-button{
+    border: none;
+    border-radius: 5px;
+    padding:20px 70px 20px 70px;
+    background-color:#5454D4;
+    margin-top: 50px;
+    color: white;
+}
+.arrow{
+
+    /* border:1px solid; */
+    border-radius:5px;
+    max-height: 50%;
+    border-color:red;
+    height: 20px;
+    padding-left: 20px;
+}
+.img-hero{
+    width: 50%;
+    padding-left: 20px;
+}
+ /* group logos */
+ .group-logos{
+    width:1146px;
+    margin-left: 100px;
+    /* background-color: red; */
+ }
+ .logos-list{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    margin-left: -50px;
+    padding: 0 -50px;
+ }
+
+ /* hero3 starts here */
+ .hero3{
+   margin-top: 100px;
+    height: 644px;
+    width:1146px ;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 100px;
+
+ }
+ .hero3-img{
+    /* width: 50%; */
+    /* margin-left:30px; */
+ }
+ .hero3-text{
+    margin-top: 150px;
+    margin-right:100px;
+    font-family:'DM sans',sans-serif;
+    font-size: 50px;
+    weight:700;
+    /* width: 50%; */
+    padding-right: 100px;
+    color:  #19191B;
+ }
+ .hero3-smalltext{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Mulish", sans-serif;
+    color:#696871;
+ }
+ .learn{
+    margin-top: 30px;
+    font-size: 12px;
+    font-family:'DM sans',sans-serif;
+ }
+ .learn a{
+    color: #5454D4;
+ }
+ /* hero4 starts here */
+ .hero4{
+    margin-top:-50px;
+    height: 644px;
+    width:1146px ;
+    display:flex;
+    justify-content: space-between;
+ }
+ .hero4-text{
+    margin-top: 160px;
+    font-family:'DM sans',sans-serif;
+    font-size: 40px;
+    color:  #19191B;
+    width: 50%;
+    margin-left: 100px;
+ }
+ .hero4-img{
+    width: 50%;
+    margin-left: 300px;
+  
+ }
+
+ /* her05 starts here */
+ .icons{
+    width:1111px;
+    display: flex;
+    justify-content: space-between;
+    font-family:'DM sans',sans-serif;
+    font-size: 24px;
+    margin-left: 100px;
+    text-align: center;
+    color:#19191B;
+    padding: 0px 0px 0px 10px;
+ }
+ .icon1{
+   
+ }
+ .icon-small-text{
+   text-align: center;
+   margin-top: 10px;
+   font-size: 16px;
+   color:#696871;
+ }
+ 
+ /* hero5 starts here/ pricing  */
+ .pricing{
+   height:695px;
+   width:1111px;
+   margin-top: 100px;
+   margin-left: 100px;
+ }
+ .hero6{
+    width: 100%;
+    justify-content: space-between;
+    display:flex;
+ }
+   
+ .hero6-text{
+    width: 50%;
+    font-size:50px;  
+    font-family: "DM Sans", sans-serif;
+    margin-left:0px;
+ }
+ .hrbutton{
+    display: inline-flex;
+    height: 50px;
+    margin-right: 100px;
+    margin-top: 40px;
+
+    
+ }
+ .monthly{
+   border: none;
+   width: 160px;
+   border-radius: 0 10px 10px 0;
+   background-color: #F7F7FB;
+  
+ }
+ .yearly{
+  border: none;
+  width: 160px;
+  background-color: #5454D4;;
+  color: white;
+  border-radius: 10px 0 0 10px;
+ }
+
+ .price{
+   display: inline-flex;
+   width: 1111px;
+   margin-top: 100px;
+   justify-content: space-between;
+
+ }
+ .free{
+   width:330px;
+   height:441;
+   border: 5px;
+   background-color:#F8F8F8;
+   height: 441px;
+   margin-top: 34px;
+   padding-top: 34px;
+   border-radius: 10px;
+   text-align: center;
+   justify-content: space-between;
+
+ }
+ .big-price{
+   width: 376px;
+   height:473px;
+   border: 5px;
+   background-color:#FF7143;
+   color: white;
+   margin-top: 20px;
+   padding-top: 50px;
+   border-radius: 10px;
+   text-align: center;
+ }
+ .price-2{
+   width:330px;
+   height:441px;
+   border: 5px;
+   background-color:#F8F8F8;
+   height: 441px;
+   margin-top: 34px;
+   padding-top: 34px;
+   border-radius: 10px;
+   text-align: center;
+ }
+ .label{
+   font-family: "DM Sans", sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+ }
+ 
+ .second{
+   margin-top: 34px;
+   font-family: "DM Sans", sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 56px;
+   text-align: center;
+
+ }
+ .one-website{
+   margin-top:34px;
+   font-family:"Mulish", sans-serif;
+
+ }
+ .click-getbutton{
+   margin-top: 30px;
+   width: 285px;
+   height: 60px;
+   border: 1px;;
+   border-radius: 10px;
+   font-family: "DM Sans", sans-serif;
+   background-color:solid #EAE9F2;
+   color:#5454D4;
+   font-size: 17px;
+ }
+ .big-price .click-getbutton{
+   margin-top: 30px;
+   width: 305px;
+   height: 60px;
+   border: none;
+   border-radius: 10px;
+   font-family: "DM Sans", sans-serif;
+   background-color: #9F3919;
+   color:#FFFFFF;
+   font-size: 17px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* logo section 2 starts here */
+.logo2{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: ;
+    padding: 10rem 9rem 0 9rem;
+}
+.logo2 h3{
+    padding-top: 1rem;
+    text-align: center;
+}
+.first-logo p{
+    font-size: 0.7rem;
+    font-family: "PT Serif", serif;
+    text-align: center;
+    padding-right:3.5rem;
+    padding-left:1rem;
+
+}
+.second-logo p{
+    font-size: 0.7rem;
+    font-family: "PT Serif", serif;
+    text-align: center;
+    padding-right:3.5rem;
+}
+.third-logo p{
+    font-size: 0.7rem;
+    font-family: "PT Serif", serif;
+    text-align: center;
+    padding-right:3.5rem;
+}
+
+ 
